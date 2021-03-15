@@ -2,7 +2,7 @@
 
 namespace App;
 
-final class RuleEngine
+final class RulesEngine
 {
     private array $rules;
 

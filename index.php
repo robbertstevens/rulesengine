@@ -24,7 +24,7 @@ final class Cart
     }
 }
 
-$ruleEngine = new \App\RuleEngine([
+$ruleEngine = new \App\RulesEngine([
     fn($fact) => count($fact->products) > 3,
     fn($fact) => $fact->getTotal() > 50,
     fn($fact) => !empty(array_filter($fact->products, fn($product) => $product->name === "Cheese")),
