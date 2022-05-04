@@ -1,6 +1,6 @@
 {
     "name": "robbertstevens/ruleengine",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Robbert Stevens",
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "php": "~7.4",
+        "php": ">=7.4",
         "symfony/expression-language": "^5.2"
     },
     "require-dev": {
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "RobbertStevens\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "RobbertStevens\\Tests\\": "tests/"
         }
     },
-    "description": ""
+    "description": "A simple Rule Engine written in PHP"
 }

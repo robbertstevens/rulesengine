@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\Tests;
+namespace RobbertStevens\Tests;
 
-use App\RulesEngine;
+use RobbertStevens\RulesEngine;
 use PHPUnit\Framework\TestCase;
 
 /**
