@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App;
+namespace RobbertStevens;
 
-final class RulesEngine
+class RulesEngine
 {
     private array $rules;
 

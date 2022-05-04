@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\Rule;
+namespace RobbertStevens\Rule;
 
-use App\Exception\UnexpectedExpressionResult;
+use RobbertStevens\Exception\UnexpectedExpressionResult;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 
 final class ExpressionLanguageRule

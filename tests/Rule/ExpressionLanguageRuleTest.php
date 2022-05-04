@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Tests\Rule;
+namespace RobbertStevens\Tests\Rule;
 
-use App\Exception\UnexpectedExpressionResult;
-use App\Rule\ExpressionLanguageRule;
+use RobbertStevens\Exception\UnexpectedExpressionResult;
+use RobbertStevens\Rule\ExpressionLanguageRule;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 
 /**
- * @coversDefaultClass \App\Rule\ExpressionLanguageRule
+ * @coversDefaultClass \RobbertStevens\Rule\ExpressionLanguageRule
  */
 class ExpressionLanguageRuleTest extends TestCase
 {
